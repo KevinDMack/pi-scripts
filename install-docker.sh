@@ -1,3 +1,4 @@
+source ./test.env
 echo "Installing docker - version ${VER_DOCKER_MAX}..."
 sudo apt-get update
 sudo apt-get install ca-certificates curl
