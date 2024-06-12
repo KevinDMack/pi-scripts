@@ -16,10 +16,10 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 ## Verify it works
-sudo docker run hello-world
+# sudo docker run hello-world
 
-## Make it sudo-less
-sudo groupadd docker
-sudo usermod -aG docker $USER
-newgrp docker
-docker run hello-world
+# ## Make it sudo-less
+# sudo groupadd docker
+# sudo usermod -aG docker $USER
+# newgrp docker
+# docker run hello-world
